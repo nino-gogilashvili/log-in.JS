@@ -1,0 +1,125 @@
+body,
+html {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  font-size: 30px;
+}
+.relative {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(rgb(64, 64, 121), #212121);
+  position: relative;
+}
+.conteiner {
+  height: 70vh;
+  width: 52vw;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  position: absolute;
+  top: 15vh;
+  left: 25vw;
+  border-radius: 15px;
+  background-image: url(https://colorlib.com/etc/regform/colorlib-regform-35/images/form-v9.jpg);
+  background-position: center;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000,
+    5px 5px 15px 5px rgba(0, 0, 0, 0), 5px 5px 15px 5px rgba(0, 0, 0, 0),
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0),
+    5px 5px 15px 5px rgba(0, 0, 0, 0), 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20%;
+  width: auto;
+  font-size: 1rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+}
+
+.form {
+  box-sizing: border-box;
+  width: auto;
+  height: 100%;
+}
+.input {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.error {
+  width: 50%;
+  margin: 5px;
+  color: rgb(211, 58, 58);
+  font-size: 0.7rem;
+}
+.errorpass {
+  width: 50%;
+  margin: 5px;
+  color: rgb(211, 58, 58);
+  font-size: 0.7rem;
+}
+
+.errorcom {
+  width: 50%;
+  margin: 5px;
+  color: rgb(211, 58, 58);
+  font-size: 0.7rem;
+}
+
+#name {
+  width: 53%;
+  margin: 15px;
+  padding: 15px;
+  border-radius: 25px;
+  background-color: transparent;
+  border-color: white;
+  font-size: 0.5rem;
+  color: #faf2f2;
+}
+#compass {
+  width: 53%;
+  margin: 15px;
+  padding: 15px;
+  border-radius: 25px;
+  background-color: transparent;
+  border-color: white;
+  font-size: 0.5rem;
+  color: #faf2f2;
+}
+#email {
+  width: 53%;
+  margin: 15px;
+  padding: 15px;
+  border-radius: 25px;
+  background-color: transparent;
+  border-color: white;
+  font-size: 0.5rem;
+  color: #faf2f2;
+}
+#Password {
+  width: 53%;
+  margin: 15px;
+  padding: 15px;
+  border-radius: 25px;
+  background-color: transparent;
+  border-color: white;
+  font-size: 0.5rem;
+  color: #faf2f2;
+}
+#register {
+  width: 20%;
+  padding: 10px;
+  border-radius: 25px;
+  background-color: #d95252;
+  border-color: #d95252;
+  color: white;
+  font-size: 0.5rem;
+}
